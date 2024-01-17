@@ -11,10 +11,13 @@ body{
 header{
     grid-area: zh;
     background-color: rgb(205, 188, 221);
+    font-size: 40px;
+    color: red;
 }
 section{
     grid-area: zs;
-    background-color: rgb(201, 162, 236);
+    background-color: rgb(185, 133, 231);
+    color: white;
 }
 footer{
     grid-area: zf;
