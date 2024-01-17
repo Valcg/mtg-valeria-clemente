@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-areas: "zh"
+                         "zs"
+                         "zf";
+}
+
+header{
+    grid-area: zh;
+    background-color: rgb(205, 188, 221);
+}
+section{
+    grid-area: zs;
+    background-color: rgb(201, 162, 236);
+}
+footer{
+    grid-area: zf;
+    background-color: rgb(205, 188, 221);
+}
